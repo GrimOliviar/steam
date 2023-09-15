@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Account</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgEcKAL+LUgD///8AXDAAAOu7iACraycA2aNqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVUAAAAABVVVVVVQAAB1IncnJ3cAAHJzNXJ1JwAHIjIjJ2dyIAYjMiMmcidgYjMjMzMmYiIzNhZjMzMzJjNhIWFjJmN2YkZhZjZjJjYEZEFhMTM0MAEWFhQ0EyEwAEFhEUMhEwAAFBRBRDM0AAAEFEQUREAAAAAAREQAAAD8PwAA4AcAAMADAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAAwAMAAOAHAAD8PwAA" rel="icon" type="image/x-icon" />    
+</head>
+<body>
+    <nav>
+        <aside class="left">
+            <img src="https://store.akamai.steamstatic.com/public/shared/images/responsive/header_logo.png" alt="steam">
+            <span class="store">STORE</span>
+            <span class="comm">COMMUNITY</span>
+            <span class="abt">ABOUT</span>
+            <span class="supp">SUPPORT</span>
+        </aside>
+        <aside class="right">
+           <button class="is">Instal steam</button>
+           <a class="c1" href="">Login</a>
+           <select>
+            <option value="text">Language</option>
+           </select>
+        </aside>
+    </nav>  
+    <section class="main">
+        <h1>CREATE YOUR ACCOUNT</h1>
+        <div class="Frm">
+            <div class="em">
+            <P>Email Address</P>
+            <input class="ea" type="text">
+            </div>
+            <div class="ca">
+            <P>Confirm your Address</P>
+            <input class="cua" type="text">
+        </div>
+        <div class="res">
+            <p>Country of Residence</p>
+            <select class="country"> 
+            <option value="text">Georgia</option>
+            <option value="text">Georgia</option>
+            <option value="text">Georgia</option>
+            <option value="text">Georgia</option>
+            </select>
+            <div class="bttm">
+            <div>
+            <input class="check1" type="checkbox" id="robot" name="robot">
+            <span>I'm not a robot</span>
+            </div>
+            <div class="rec">
+            <img class="re2" style="width: 35px;" src="	https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="recaptcha">
+            <span class="re" >reCAPTCHA</span>
+            <a href="#">Privacy</a> <a  href="#">Terms</a>
+            </div>
+            </div>
+            <input class="check3" type="checkbox">
+            <span class=" check2" >I am 13 years of age or older and agree to the terms of the  </span> <a href="#">Steam Subscriber Agreement</a> <span class="check2">and the</span> <a href="#">Valve Privacy Policy.</a>
+            <br>
+            <br>
+            <button class="cnt">Continue</button>
+    </section>
+</body>
+<style>
+    body{
+        background: #252a35;
+        color: rgb(209, 206, 206);
+        margin: 0px;
+        padding: 0px;
+        font-family: "Motiva Sans", Sans-serif;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background: #171a21;
+        height: 110px;
+    }
+    img{
+        width: 200px;
+        display: inline-block;
+        
+    }
+    .re{
+        display: flex;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .re2{
+        margin-left: 10px;
+    }
+    .store, .comm, .abt, .supp{
+        display: inline-block;
+        margin: 10px;
+        font-size: 13px; 
+        
+    }
+    .left{
+        display: flex;
+        align-items: center;
+    }
+    .is{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-position: 10px 5px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+    background-color: #5c7e10;
+    border: none;
+    font-size: 12px;
+    }
+    .c1{
+        text-decoration: none;
+        color: rgb(209, 206, 206);
+        font-size: 12px;
+    }
+    select{
+        background: transparent;
+        color: rgb(209, 206, 206);
+        border: none;
+        font-size: 12px;
+
+    }
+    .right{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .main{
+        width: 700px;
+        height: 600px;
+        background-image:url(steam2.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        position: absolute;
+        opacity: 0.6;
+        
+ 
+
+    }
+    .Frm{
+        display: flex;
+        margin-left: 30%;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 450px;
+        
+    }
+    h1{
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 34px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-left: 30%;
+    margin-top: 70px;
+    
+    }
+.cua, .ea, .country{
+    width: 300px;
+    padding: 10px;
+    background: #32353C;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+p{
+    font-size: 14px;
+    color: #b8b6b4;
+    vertical-align: top;
+    margin-bottom: 2px;
+
+}
+.country{
+    width: 320px;
+}
+.bttm{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding: 10px;
+    background: #1e1e1f;
+    color: white;
+}
+.check1{
+    width:30px;
+    height: 30px;
+    margin-top: 18px;
+    
+}
+.check3{
+    width: 25px;
+    height: 20px;
+}
+.cnt{
+    background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-position: 25%;
+    background-size: 330% 100%;
+    width: 150px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+.cnt:hover{
+    background: #5770b8;
+}
+.check2{
+    font-size: 13px;
+}
+a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 250;
+}
+a:hover{
+    color: rgb(119, 119, 244);
+}
+.rec a{
+    font-size: 9px;
+    
+}
+</style>
+</html>
